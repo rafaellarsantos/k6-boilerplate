@@ -34,6 +34,7 @@ docker compose up -d serverest
 | Script | Tipo | Encontro |
 |---|---|---|
 | `k6/fumaca.js` | Fumaça: 1 usuário, 30 s | 1, Exercício 1 |
+| `k6/carga.js` | Carga: rampa até 10 usuários, 2 min (`P95_MS` ajusta o limite do p(95), padrão 500) | 1, Exercício 2 |
 
 Executar (Linux e macOS; no Windows PowerShell troque a `\` do fim da linha pela crase `` ` ``):
 
